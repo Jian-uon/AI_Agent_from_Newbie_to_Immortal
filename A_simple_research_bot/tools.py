@@ -1,8 +1,6 @@
-from langchain_community.tools import DuckDuckGoSearchRun, WikipediaQueryRun
-from langchain_community.utilities import WikipediaAPIWrapper
+from langchain_community.tools import DuckDuckGoSearchRun
 from langchain_core.tools import tool
 from datetime import datetime
-import wikipedia
 
 _search = DuckDuckGoSearchRun()
 
